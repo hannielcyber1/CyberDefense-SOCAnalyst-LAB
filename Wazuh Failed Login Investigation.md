@@ -1,5 +1,7 @@
 # Case Study 01: Wazuh SOC Failed Login Investigation
 
+---
+
 ## Executive Summary
 
 A SOC-style investigation was performed against failed authentication activity. Windows Security Event ID 4625 logs showed failed login attempts against a Windows VM. The activity was reviewed using Log Analytics to identify suspicious authentication patterns.
@@ -11,6 +13,8 @@ The investigation determined that the activity represented suspicious authentica
 ## Data Notice
 
 This case study is based on lab-generated security telemetry from an Wazuh SOC lab environment. No real company logs, customer data, or sensitive information are included.
+
+---
 
 ## Scenario
 
