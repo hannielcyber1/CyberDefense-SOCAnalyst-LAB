@@ -1,4 +1,12 @@
-# Case Study 01: Wzuh SOC Failed Login Investigation
+# Case Study 01: Wazuh SOC Failed Login Investigation
+
+## Executive Summary
+
+A SOC-style investigation was performed against failed authentication activity. Windows Security Event ID 4625 logs showed failed login attempts against a Windows VM. The activity was reviewed using Log Analytics to identify suspicious authentication patterns.
+
+The investigation determined that the activity represented suspicious authentication behaviour consistent with opportunistic brute-force or scanning attempts. No confirmed successful compromise was identified, but the findings highlight the importance of restricting monitoring failed logins, enforcing MFA, and improving SIEM alerting for authentication anomalies.
+
+---
 
 ## Data Notice
 
@@ -140,12 +148,4 @@ No successful unauthorized login was confirmed in this case study. However, the 
 - Alert when failed logins occur outside expected access patterns
 
 --- 
-
-## Executive Summary
-
-A SOC-style investigation was performed against failed authentication activity. Windows Security Event ID 4625 logs showed failed login attempts against a Windows VM. The activity was reviewed using Log Analytics to identify suspicious authentication patterns.
-
-The investigation determined that the activity represented suspicious authentication behaviour consistent with opportunistic brute-force or scanning attempts. No confirmed successful compromise was identified, but the findings highlight the importance of restricting monitoring failed logins, enforcing MFA, and improving SIEM alerting for authentication anomalies.
-
----
 
