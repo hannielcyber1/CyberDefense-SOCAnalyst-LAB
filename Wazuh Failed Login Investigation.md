@@ -20,7 +20,7 @@ This case study is based on lab-generated security telemetry from an Wazuh SOC l
 
 A Wazuh Server was deployed on a Ubuntu Server and Wazuh agents are installed on Virtual systems. Windows Security Events were collected and forwarded into Log Analytics for investigation.
 
-I investigate failed authentication activity using Wazuh, Log Analytics, Queries, Windows Security Event IDs, MITRE ATT&CK mapping, and  incident reporting.
+I investigated failed authentication activity using Wazuh, Log Analytics, Queries, Windows Security Event IDs, MITRE ATT&CK mapping, and  incident reporting.
 
 ---
 
